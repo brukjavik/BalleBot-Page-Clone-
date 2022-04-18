@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/* TAG SELECTOR */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* CLASS SELECTOR */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.imagem-cabecalho{
+    width: 72px;
+    height: 72px;
+    margin-left: 1%;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    font-family: Sarala, sans-serif;
+    font-size: 18px;
+    margin-right: 2%;
+}
+
+.item-navbar{
+    color: #FFF2E7;
+}
+
+.conteudo-principal{
+    border-top: solid 0.4px white;
+    margin-top: 20px;
+}
+
+.primeirasecao{
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Righteous, sans-serif;
+    justify-content: space-around;    
+}
+
+.texto-primeirasecao{
+    color: #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}
+
+.titulo-primeirasecao{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.subtitulo-primeirasecao{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: Sarala, sans-serif;
+}
+
+.botao-primeirasecao{
+    background-color: #ECD6C4;
+    color: #2F2325;
+    font-family: Sarala, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    width: 185px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao-primeirasecao:hover{
+    background-color: #ad9e91;
+    cursor: pointer;
+}
+
+.segundasecao{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.titulo-segundasecao{
+    color: #FFF2E7;
+    font-family: Righteous, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-top: solid 0.4px white;
+    padding-top: 50px;
+}
+
+.paragrafo-segundasecao{
+    color: #ECD6C4;
+    font-family: Sarala, sans-serif;
+    font-size: 18px;
+}
+
+.rodape{
+    border-top: solid 0.4px white;
+    padding-top: 30px;
+    margin-top: 2.3%;
+    margin-bottom: 0;
+}
+
+.imagem-rodape{
+    display: block;
+    margin: 0 auto;
+    width: 241px;
+    height: 48px;
+    margin-bottom: 30px;
+    padding: 0;
+}
